@@ -5,6 +5,6 @@ let num = 123;
 console.log(typeof(numberToString(num)));
 
 function numberToString(num) {
-  return num.toString();
+  return `${num}`;//with template literals
 }
 
