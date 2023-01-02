@@ -4,7 +4,8 @@ let num = 123;
 
 console.log(typeof(numberToString(num)));
 
-function numberToString(num) {
-  return `${num}`;//with template literals
-}
+const numberToString = num => `${num}`; //one-line solution
+/* function numberToString(num) {
+  return `${num}`;
+} */
 
