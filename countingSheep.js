@@ -11,7 +11,11 @@ let arrayOfSheep = [true,  true,  true,  false,
 
 console.log(countSheeps(arrayOfSheep));
 
-function countSheeps(arrayOfSheep) {
+function countSheeps(sheep) { //with filter()
+  return sheep.filter(Boolean).length;
+}
+
+/* function countSheeps(arrayOfSheep) {
   // TODO May the force be with you
   let sheepTotal = 0;
   arrayOfSheep.forEach(sheep => {
@@ -19,6 +23,6 @@ function countSheeps(arrayOfSheep) {
       sheepTotal++;
     }
   });
-  
+   
   return sheepTotal;
-}
+}*/
