@@ -10,3 +10,8 @@ function repeatStr (n, s) {
   }
   return repeatedString;
 }
+
+//solution with repeat
+// function repeatStr (n, s) {
+//   return s.repeat(n);
+// }
