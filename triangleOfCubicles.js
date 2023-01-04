@@ -11,7 +11,7 @@
 // 1 -->  1
 // 2 --> 3 + 5 = 8
 
-//each row number equals the sum of the numbers inside the row
+//each row number cube root equals the sum of the numbers inside the row
 
 function rowSumOddNumbers(n) {
 	// TODO  
