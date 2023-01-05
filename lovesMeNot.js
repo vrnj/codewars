@@ -14,3 +14,12 @@ function lovefunc(flower1, flower2){
   }
 }
 
+//clever one
+// function lovefunc(flower1, flower2){
+//   return flower1 % 2 !== flower2 % 2;
+// }
+
+//another clever one
+// function lovefunc(flower1, flower2){
+//   return (flower1 + flower2) % 2 === 1
+// }
