@@ -14,3 +14,8 @@ function smash (words) {
   });
    return myString.trim();
 };
+
+//with join
+// smash = function (words) {
+//   return words.join(" ");
+// };
