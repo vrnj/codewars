@@ -11,3 +11,7 @@ function friend(friends){
   return newArr;
 }
 
+//one-line solution
+// function friend(friends){
+//   return friends.filter(n => n.length === 4)
+// }
