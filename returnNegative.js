@@ -7,3 +7,8 @@ function makeNegative(num) {
   }
   return num;
 }
+
+//ternary
+// function makeNegative(num) {
+//   return num < 0 ? num : -num;
+// }
