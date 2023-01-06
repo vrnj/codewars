@@ -1,3 +1,4 @@
+//cutting vowels
 let string = "This website is for losers LOL!";
 
 console.log(disemvowel(string));
@@ -19,3 +20,8 @@ function disemvowel(str) {
   
   return newString;
 }
+
+//one-line solution
+// function disemvowel(str) {
+//   return str.replace(/[aeiou]/gi, '');
+// }
