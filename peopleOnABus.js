@@ -16,3 +16,6 @@ var number = function(busStops){
 }
 
 console.log(number(flow));
+
+//with reduce
+//const number = busStops => busStops.reduce((p,n) => p+n[0]-n[1],0)
