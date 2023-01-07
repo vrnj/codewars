@@ -9,3 +9,7 @@ function isTriangle(a,b,c)
   }
  
 }
+
+
+//one-liner
+//return a + b > c && a + c > b && c + b > a;
