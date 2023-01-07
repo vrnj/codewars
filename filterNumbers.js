@@ -14,3 +14,8 @@ function filter_list(l) {
   return numArr;
   // Return a new array with the strings filtered out
 }
+
+//with filter
+// function filter_list(l) {
+//  return l.filter(v => typeof v == "number")
+// }
