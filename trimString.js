@@ -10,3 +10,7 @@ function removeChar(str){
     return str.join('');
 
 };
+
+
+// one-line solution
+//return str.slice(1, -1);
